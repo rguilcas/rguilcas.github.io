@@ -31,7 +31,9 @@ twitter_username: rguilcas
 github_username:  rguilcas
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima@1e8a445
+plugins:
+- jekyll-remote-theme 
 plugins:
   - jekyll-feed
 
