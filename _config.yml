@@ -39,6 +39,7 @@ plugins:
 header_pages:
   - about.markdown
   - publications.markdown
+  - cv.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
