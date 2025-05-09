@@ -7,6 +7,10 @@ permalink: /publications/
 
 ### 2025
 
+- <span style="color:blue">**Guillaume-Castel, Robin**</span>, Paulo Ceppi, Joshua Dorrington and Benoit Meyssignac, **2025**. *ENSO diversity explains interannual variability of the pattern effect*. Submitted to Geophysical Research Letters.
+    - [Preprint available](https://essopenarchive.org/users/773945/articles/869622-untitled-document)
+    - [Code available](https://github.com/rguilcas/2025_JClim_Pattern-effect-on-transient-warming)
+
 - <span style="color:blue">**Guillaume-Castel, Robin**</span> and Benoit Meyssignac, **2025**. *Quantifying the influence of the sea surface temperature pattern effect on transient global warming*. Accepted in Journal of Climate.
     - [Preprint available](https://essopenarchive.org/users/773945/articles/869622-untitled-document)
     - [Code available](https://github.com/rguilcas/2025_JClim_Pattern-effect-on-transient-warming)
