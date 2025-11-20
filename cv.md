@@ -9,6 +9,8 @@ permalink: /cv/
 
 - **2024-12 to current**     LEAD-AI postdoctoral fellow at the University of Bergen, Norway
 
+- **2025**                     Remote Researcher at the King Abdulaye University of Science and Technology, Saudi Arabia
+
 - **2024-06 to 2024-08**       Visiting researcher at Imperial College London, UK
 
 - **2024-01 to 2024-10**       Postdoctoral Researcher at LEGOS, CNRS, Université de Toulouse, France
