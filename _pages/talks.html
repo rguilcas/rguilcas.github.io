@@ -1,0 +1,32 @@
+---
+layout: archive
+title: "Talks and posters"
+permalink: /talks/
+author_profile: true
+---
+
+{% if site.talkmap_link == true %}
+
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+
+{% endif %}
+
+<h2>Talks</h2>
+<hr />
+
+{% for post in site.talks reversed %}
+{% if post.type == "Talk" %}
+{% include archive-single-talk.html %}
+{% endif %}
+{% endfor %}
+
+<h3>Posters</h3>
+<hr />
+
+<div class="grid__wrapper">
+  {% for post in site.talks reversed %}
+  {% if post.type == "Poster" %}
+  {% include archive-single-talk.html type="grid" %}
+  {% endif %}
+  {% endfor %}
+</div>
