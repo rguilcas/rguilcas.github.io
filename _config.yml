@@ -13,9 +13,8 @@ title                    : "Robin Guillaume-Castel"
 title_separator          : "-"
 name                     : &name "Robin Guillaume-Castel"
 description              : &description "My research portfolio and academic publications."
-url                      : "https://rguilcas.github.io" # The base hostname & protocol for your site
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : "https://rguilcas.github.io"
+baseurl                  : ""
 repository               : "rguilcas/rguilcas.github.io"
 domain                   : "rguilcas.github.io"
 
@@ -315,6 +314,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-sass-converter
 
 # Mimic GitHub Pages with --safe
 whitelist:
