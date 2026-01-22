@@ -102,6 +102,28 @@
     }
 }
 
+/* ==========================================================================
+   SIDEBAR STYLING (Custom)
+   ========================================================================== */
+
+.sidebar {
+    background-color: rgba(0, 65, 125, 0.05);
+    /* Light LEAD-AI blue */
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 1em;
+
+    @media screen and (min-width: 1024px) {
+        padding-top: calc(70px + 10px);
+        /* masthead height + padding */
+    }
+
+    .author__avatar img {
+        border: 2px solid #00417D;
+        /* LEAD-AI border for avatar */
+    }
+}
+
 /* Responsive adjustment for small screens */
 @media screen and (max-width: 600px) {
     .grid__wrapper {
