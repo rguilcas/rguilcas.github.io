@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-01-01-Understanding-biases-and-changes-in-European-heavy
 date: 2025-01-01
 venue: '(submitted)'
-citation: 'Oldham-Dorrington, J., Li C., Sobolowski S. and Guillaume-Castel, R. . &quot;Understanding biases and changes in European heavy precipitation using dynamical flow precursors.&quot; (submitted).'
+citation: 'Joshua Oldham-Dorrington, Camille Li, Stefan P. Sobolowski and Robin Guillaume-Castel . &quot;Understanding biases and changes in European heavy precipitation using dynamical flow precursors.&quot; (submitted).'
 ---
 
 We address the problem of understanding precipitation in climate models. Using a novel decomposition applied to two large ensemble simulations, we disaggregate biases and forced changes in European heavy precipitation occurrence according to different weather conditions and isolate synoptic-scale dynamical contributions from the local-scale conversion of synoptic forcing into precipitation. We categorise weather conditions using multivariate, regionally-specific heavy precipitation precursors that target precipitation-causing flow patterns, revealing a larger role for dynamics in explaining model biases and projected changes than suggested by previous work. We demonstrate that biases in heavy precipitation across models and regions can emerge from errors on very different scales, with compensating biases between scales being common. This has important implications for model selection, for example for downscaling or storyline applications. In terms of forced changes in heavy precipitation, we show that apparent model agreement can arise from markedly different future scenarios with different levels of implied risk.
