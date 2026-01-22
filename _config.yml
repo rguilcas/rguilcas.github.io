@@ -13,10 +13,11 @@ title                    : "Robin Guillaume-Castel"
 title_separator          : "-"
 name                     : &name "Robin Guillaume-Castel"
 description              : &description "My research portfolio and academic publications."
-url                      : "http://localhost:4000" # The base hostname & protocol for your site
+url                      : "https://rguilcas.github.io" # The base hostname & protocol for your site
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "rguilcas/rguilcas.github.io"
+domain                   : "rguilcas.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
