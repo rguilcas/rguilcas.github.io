@@ -7,6 +7,7 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jemoji'
   gem 'webrick', '~> 1.8'
+  gem 'jekyll-sass-converter', '1.5.2'
 end
 
 gem 'github-pages'
