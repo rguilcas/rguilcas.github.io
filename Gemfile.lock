@@ -310,7 +310,6 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-redirect-from
-  jekyll-sass-converter (= 1.5.2)
   jekyll-sitemap
   jemoji
   webrick (~> 1.8)
