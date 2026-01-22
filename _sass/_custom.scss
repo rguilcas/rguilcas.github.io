@@ -107,11 +107,8 @@
    ========================================================================== */
 
 .sidebar {
-    background-color: rgba(0, 65, 125, 0.05);
-    /* Light LEAD-AI blue */
-    padding: 10px;
-    border-radius: 12px;
     margin-top: 1em;
+    margin-left: -2em;
 
     @media screen and (min-width: 1024px) {
         padding-top: calc(70px + 10px);
