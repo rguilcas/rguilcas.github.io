@@ -16,12 +16,8 @@ location: "Bjerknes center for Climate Research, Norway"
 Dear BCCR colleagues,
 
 We are pleased to welcome you to the first edition of the BCCR Training programme in Machine Learning!
-
 ---
-**NOTE**
-
-What is a neural network? What does it mean when it “learns” something? Machine learning and deep learning are playing an increasingly growing role in everyday life, in the workplace, and academia. This new BCCR training programme is designed to give you the tools to understand these technologies and to get hands-on experience. We will also provide the tools to start your own machine learning framework to use it in your research.
-The programme will be a mix of lectures, practical activities, and project work, where you will build both understanding and confidence. It builds on last year’s successful student ML evening course. All BCCR researchers are welcome!
+What is a neural network? What does it mean when it “learns” something? Machine learning and deep learning are playing an increasingly growing role in everyday life, in the workplace, and academia. This new BCCR training programme is designed to give you the tools to understand these technologies and to get hands-on experience. We will also provide the tools to start your own machine learning framework to use it in your research. The programme will be a mix of lectures, practical activities, and project work, where you will build both understanding and confidence. It builds on last year’s successful student ML evening course. All BCCR researchers are welcome!
 ---
 
 The programme will consist of different learning blocks that can be done independently depending on time availability and previous experience. If you have no or very little experience in machine learning, we recommend the beginner’s course, which consists of the first four blocks. The last three blocks require knowledge in machine learning and neural networks that can be acquired with the beginner’s course.
