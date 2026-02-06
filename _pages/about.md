@@ -13,7 +13,7 @@ My current research focuses on explainable machine learning for midlatitude extr
 
 News
 ======
-* [Vi må forstå den svarte KI-boksen](https://bjerknes.uib.no/en/news/vi-ma-forsta-den-svarte-ki-boksen) - Bjerknes Centre for Climate Research
+* [Interview at the Bjerknes Centre for Climate Research](https://bjerknes.uib.no/en/news/vi-ma-forsta-den-svarte-ki-boksen) - Bjerknes Centre for Climate Research
 
 Research Interests
 ======
