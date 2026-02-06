@@ -22,10 +22,9 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(8 of 12 last);
-    @include prefix(0);
+    @include span(9 of 12 last);
+    @include pre(3 of 12);
     @include suffix(0);
-    padding-left: 3em;
   }
 
   .page__inner-wrap {
