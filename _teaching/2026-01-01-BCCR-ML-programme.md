@@ -10,8 +10,6 @@ location: "Bjerknes center for Climate Research, Norway"
 
 ![Image missing](images/BCCR_ML_Announcement.png "Flyer")
 
-# BCCR Training Programme  
-## Machine learning for Geosciences
 
 Dear BCCR colleagues,
 
