@@ -12,8 +12,11 @@
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: 100%;
-    width: 100%;
+    max-width: $x-large;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1em;
+    padding-left: 1em;
   }
 }
 
