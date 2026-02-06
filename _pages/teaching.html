@@ -13,18 +13,22 @@ author_profile: true
 I teach and design courses about technical tools for climate and weather data analysis.
 
 <hr />
-{% for post in site.teaching reversed %}
-{% unless post.type contains "Supervisor" or post.type contains "supervisor" %}
-{% include archive-single.html %}
-{% endunless %}
-{% endfor %}
+<div class="grid__wrapper">
+    {% for post in site.teaching reversed %}
+    {% unless post.type contains "Supervisor" or post.type contains "supervisor" %}
+    {% include archive-single.html type="grid" %}
+    {% endunless %}
+    {% endfor %}
+</div>
 
 <br />
 
 <h2>Students Mentoring / Interns</h2>
 <hr />
-{% for post in site.teaching reversed %}
-{% if post.type contains "Supervisor" or post.type contains "supervisor" %}
-{% include archive-single.html %}
-{% endif %}
-{% endfor %}
+<div class="grid__wrapper">
+    {% for post in site.teaching reversed %}
+    {% if post.type contains "Supervisor" or post.type contains "supervisor" %}
+    {% include archive-single.html type="grid" %}
+    {% endif %}
+    {% endfor %}
+</div>
