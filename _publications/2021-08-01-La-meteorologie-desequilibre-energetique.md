@@ -1,10 +1,10 @@
 ---
-title: "Mesurer le déséquilibre énergétique de la planète pour évaluer la sensibilité du climat aux émissions de gaz à effet de serre"
+title: "(French) Mesurer le déséquilibre énergétique de la planète pour évaluer la sensibilité du climat aux émissions de gaz à effet de serre"
 collection: publications
 category: outreach
 permalink: /publication/2021-08-01-La-meteorologie-desequilibre-energetique
 date: 2021-08-01
-venue: 'Philosophical Transactions of the Royal Society A'
+venue: 'La Météorologie'
 citation: 'Benoît Meyssignac, Jonathan Chenal, Robin Guillaume-Castel, Alejandro Blazquez, Sébastien Fourest, &quot;Mesurer le déséquilibre énergétique de la planète pour évaluer la sensibilité du climat aux émissions de gaz à effet de serre; La Météorologie, 2021.'
 ---
 
