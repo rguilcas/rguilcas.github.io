@@ -9,8 +9,10 @@ author_profile: true
 <h2>Submitted</h2>
 <div class="grid__wrapper">
   {% for post in site.publications reversed %}
+  {% if post.category contains 'manuscripts' %}
   {% if post.venue contains '(submitted)' %}
   {% include archive-single.html type="grid" %}
+  {% endif %}
   {% endif %}
   {% endfor %}
 </div>
@@ -18,9 +20,11 @@ author_profile: true
 <h2>Journal Articles</h2>
 <div class="grid__wrapper">
   {% for post in site.publications reversed %}
+  {% if post.category contains 'manuscripts' %}
   {% unless post.venue contains '(submitted)' %}
   {% include archive-single.html type="grid" %}
   {% endunless %}
+  {% endif %}
   {% endfor %}
 </div>
 
