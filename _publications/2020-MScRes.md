@@ -3,7 +3,7 @@ title: "(MScRes Thesis) El Niño-Induced Upwelling Variability in the Central Tr
 collection: publications
 category: thesis
 permalink: /publication/2020-01-01-MScRes-Thesis
-date: 2020
+date: 2020-10-01
 venue: 'MScRes Thesis - Bangor University'
 citation: 'Robin Guillaume-Castel, &quot;El Niño-Induced Upwelling Variability in the Central Tropical Pacific Ocean.&quot; MScRes Thesis, 2020.'
 ---
