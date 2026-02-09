@@ -23,3 +23,21 @@ author_profile: true
   {% endunless %}
   {% endfor %}
 </div>
+
+<h2>Theses</h2>
+<div class="grid__wrapper">
+  {% for post in site.publications reversed %}
+  {% if post.category contains 'thesis' %}
+  {% include archive-single.html type="grid" %}
+  {% endif %}
+  {% endfor %}
+</div>
+
+<h2>Outreach</h2>
+<div class="grid__wrapper">
+  {% for post in site.publications reversed %}
+  {% if post.category contains 'outreach' %}
+  {% include archive-single.html type="grid" %}
+  {% endif %}
+  {% endfor %}
+</div>
