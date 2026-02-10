@@ -22,9 +22,9 @@ Explainable machine learning for climate science; Midlatitude extreme rainfall d
 Project
 ======
 
-[![App](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://rguilcas-cmip-interactive.hf.space/panel_app)
+[![App](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://rguilcas-cmip-interactive.hf.space/app)
 <iframe
-	src="https://rguilcas-cmip-interactive.hf.space/panel_app"
+	src="https://rguilcas-cmip-interactive.hf.space/app"
 	frameborder="0"
 	width="100%"
 	height="800px"
