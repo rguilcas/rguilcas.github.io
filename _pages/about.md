@@ -9,7 +9,7 @@ redirect_from:
 
 
 My current research focuses on explainable machine learning for midlatitude extreme rainfall dynamics. I investigate whether neural networks can capture physically interpretable processes, with the goal of improving understanding of high-impact climate events and increasing confidence in their use for future climate projections.
-
+I also study the Earth's global energy budget and the SST pattern effect, as well as upwelling dynamics in tropical coral reef ecosystems.
 
 Research Interests
 ======
