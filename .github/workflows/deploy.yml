@@ -76,17 +76,10 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.4.1" # verified locally
+          ruby-version: "3.3" # pre-installed on runner for faster setup
           bundler-cache: true # enabled to install and cache gems automatically
-      - name: Setup Python 🐍
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
-          cache: "pip" # caching pip dependencies
-      - name: Install and Build 🔧
+      - name: Build site 🔧
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Upload artifact 📤
