@@ -1,0 +1,28 @@
+<ul class="social-media-list">
+  {% if site.github_username %}
+  <li>
+    <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github"></i>
+      <span class="username">GitHub</span>
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.twitter_username %}
+  <li>
+    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-twitter"></i>
+      <span class="username">Twitter</span>
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.uib_url %}
+  <li>
+    <a href="{{ site.uib_url }}" target="_blank" rel="noopener noreferrer">
+      <i class="fas fa-university"></i>
+      <span class="username">UiB Profile</span>
+    </a>
+  </li>
+  {% endif %}
+</ul>
