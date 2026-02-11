@@ -75,7 +75,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.4.1" # verified locally
-          bundler-cache: false # disabled because Gemfile.lock was removed
+          bundler-cache: true # enabled to install and cache gems automatically
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
