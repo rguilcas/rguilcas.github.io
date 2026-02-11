@@ -18,18 +18,3 @@ News
 Research Interests
 ======
 Explainable machine learning for climate science; Midlatitude extreme rainfall dynamics; Earth’s global energy budget and the SST pattern effect; Upwelling dynamics in tropical coral reef ecosystems; Large-scale data analysis; Data visualisation
-
-Project
-======
-Check out an interactive plot for CMIP6 biases of european rainfall.
-[![App](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://rguilcas-cmip-interactive.hf.space/app)
-
-<iframe
-	src="https://rguilcas-cmip-interactive.hf.space/app"
-	frameborder="0"
-	width="100%"
-	height="800px"
-	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-	allowfullscreen
-></iframe>
-
