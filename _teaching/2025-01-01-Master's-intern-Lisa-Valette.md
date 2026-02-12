@@ -6,6 +6,7 @@ permalink: /teaching/2025-01-01-Master's-intern-Lisa-Valette
 venue: "Geophysical Institute, University of Bergen, Norway"
 date: 2025-01-01
 location: "Geophysical Institute, University of Bergen, Norway"
+category: supervision
 ---
 
 Constraining European extreme rainfall projections

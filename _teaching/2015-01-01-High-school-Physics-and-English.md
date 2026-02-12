@@ -6,6 +6,7 @@ permalink: /teaching/2015-01-01-High-school-Physics-and-English
 venue: "Bac Ninh High School, Vietnam"
 date: 2015-01-01
 location: "Bac Ninh High School, Vietnam"
+category: other
 ---
 
 High school teaching abroad.

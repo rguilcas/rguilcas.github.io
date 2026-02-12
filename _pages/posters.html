@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Poster Gallery"
+permalink: /posters/
+author_profile: true
+---
+
+<div class="grid__wrapper">
+    {% for post in site.talks reversed %}
+    {% if post.type == "Poster" %}
+    {% include archive-single-talk.html type="grid" %}
+    {% endif %}
+    {% endfor %}
+</div>

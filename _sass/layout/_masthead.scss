@@ -10,9 +10,9 @@
   width: 100%;
 
   -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
+  animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
+  animation-delay: 0.15s;
   z-index: 20;
 
   &::after {
@@ -64,14 +64,26 @@
     padding-right: 2em;
     font-weight: 700;
   }
+
+  &--shift {
+    @include breakpoint($large) {
+      margin-left: 175px; // Approximate sidebar width + gutter
+    }
+
+    @include breakpoint($x-large) {
+      margin-left: calc(250px + 1em); // Matches sidebar-link-max-width + some buffer
+    }
+  }
 }
 
 .masthead__menu-item.selected a {
   color: var(--global-text-color);
   font-weight: 700;
   border-bottom: 2px solid var(--global-text-color);
-  pointer-events: none; /* Move this here */
-  cursor: default; /* Move this here too */
+  pointer-events: none;
+  /* Move this here */
+  cursor: default;
+  /* Move this here too */
 }
 
 .masthead__menu-item.selected a:hover {

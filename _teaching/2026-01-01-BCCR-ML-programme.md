@@ -1,11 +1,13 @@
 ---
-title: "BCCR Training Programme in Machine Learning"
+title: "BCCR Training Programme"
 collection: teaching
 type: "Teacher"
 permalink: /teaching/2026-01-01-BCCR-ML-programme
 venue: "Bjerknes Centre for Climate Research, Norway"
 date: 2026-04-01
 location: "Bjerknes Centre for Climate Research, Norway"
+category: main
+group: ml
 ---
 
 ![Image missing](images/BCCR_ML_Announcement.png "Flyer")

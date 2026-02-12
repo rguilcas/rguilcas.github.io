@@ -1,11 +1,13 @@
 ---
-title: "Machine Learning for Geosciences evening course"
+title: "GFI evening course"
 collection: teaching
 type: "Instructor"
 permalink: /teaching/2025-01-01-Machine-Learning-for-Geosciences
 venue: "Geophysical Institute, University of Bergen, Norway"
 date: 2025-01-01
 location: "Geophysical Institute, University of Bergen, Norway"
+category: main
+group: ml
 ---
 
 ![Image missing](images/GFI-evening_ML.png "Flyer")
