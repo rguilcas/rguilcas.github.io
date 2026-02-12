@@ -22,7 +22,7 @@ I design and teach courses and workshops on programming tools for geoscientists.
         </div>
         <div class="featured-block__links">
             <div class="featured-block__links-inner">
-                <a href="{{ base_path }}/teaching/2020-01-01-Python-for-data-analysis-in-geosciences"
+                <a href="{{ base_path }}/teaching/python-resources/"
                     class="featured-block__link featured-block__link--primary"
                     onclick="event.stopPropagation()">Resources</a>
                 {% for post in site.teaching %}
@@ -47,7 +47,7 @@ I design and teach courses and workshops on programming tools for geoscientists.
         </div>
         <div class="featured-block__links">
             <div class="featured-block__links-inner">
-                <a href="{{ base_path }}/teaching/2026-01-01-BCCR-ML-programme"
+                <a href="{{ base_path }}/teaching/ml-resources/"
                     class="featured-block__link featured-block__link--primary"
                     onclick="event.stopPropagation()">Resources</a>
                 {% for post in site.teaching %}
@@ -60,14 +60,4 @@ I design and teach courses and workshops on programming tools for geoscientists.
             </div>
         </div>
     </div>
-</div>
-
-<h2>Main Teaching Resources</h2>
-<hr />
-<div class="grid__wrapper">
-    {% for post in site.teaching reversed %}
-    {% if post.category == "main" %}
-    {% include archive-single.html type="grid" %}
-    {% endif %}
-    {% endfor %}
 </div>
