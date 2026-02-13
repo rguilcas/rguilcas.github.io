@@ -293,3 +293,32 @@
         }
     }
 }
+
+/* ==========================================================================
+   RESOURCE GRID HELPERS
+   ========================================================================== */
+
+.archive__item-teaser--icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: var(--global-info-color);
+    background: #f8f9fa;
+    height: 100%;
+}
+
+.archive__item-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    .btn {
+        margin-bottom: 0;
+        padding: 0.4em 0.8em;
+        font-size: 0.75rem;
+        flex: 1;
+        min-width: fit-content;
+    }
+}
