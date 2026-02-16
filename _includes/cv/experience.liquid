@@ -4,7 +4,13 @@
 
 <ul class="cv-list">
   {% for entry in entries %}
-    <li class="cv-item">
+    <li class="cv-item {% if entry.logo %}cv-item-with-logo{% endif %}">
+      {% if entry.logo %}
+        <div class="cv-item-logo">
+          <img src="{{ base_path }}/images/{{ entry.logo }}" alt="{{ entry.company }} logo">
+        </div>
+      {% endif %}
+      <div class="cv-item-content">
       <div class="cv-item-header">
         <div class="cv-item-title-group">
           {% capture position_title %}
@@ -68,6 +74,7 @@
           </ul>
         </div>
       {% endif %}
+      </div>
     </li>
   {% endfor %}
 </ul>

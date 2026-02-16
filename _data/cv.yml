@@ -14,30 +14,35 @@ Experience:
     start_date: 2024
     end_date: Present
     summary: Explainable machine learning for extreme rainfall dynamics.
+    logo: logo_uib.png
   - position: Remote Researcher
     company: King Abdullah University of Science and Technology
     location: Saudi Arabia
     start_date: 2025
     end_date: 2025
     summary: Understanding upwelling dynamics in the Red Sea.
+    logo: logo_kaust.png
   - position: Visiting Researcher
     company: Imperial College London
     location: UK
     start_date: 2024
     end_date: 2024
     summary: Collaborations on SST pattern effect and ENSO.
+    logo: logo_imperial.png
   - position: Postdoctoral Researcher
     company: LEGOS, CNRS, Université de Toulouse
     location: France
     start_date: 2024
     end_date: 2024
     summary: Earth energy balance and the SST pattern effect.
+    logo: logo_legos.png
   - position: Research Intern
     company: Scottish Association for Marine Science
     location: Oban, Scotland
     start_date: 2019
     end_date: 2019
     summary: Polar oceanography.
+    logo: logo_sams.png
 
 Education:
   - studyType: PhD in Climate Physics
@@ -45,6 +50,7 @@ Education:
     location: France
     start_date: 2020
     end_date: 2023
+    logo: logo_legos.png
     area: Climate Physics
     highlights:
       - "Thesis: Influence of Regional Sea Surface Temperature Anomalies on the Planetary Energy Budget."
@@ -58,11 +64,13 @@ Education:
     highlights:
       - "Thesis: El Niño-Induced Upwelling Variability in the Central Tropical Pacific Ocean."
       - "Advisors: Profs. J. A. Mattias Green and Gareth J. Williams"
+    logo: logo_bangor.png
   - studyType: MSc – Diploma of École polytechnique
     institution: École polytechnique
     location: Palaiseau, France
     start_date: 2015
     end_date: 2019
+    logo: logo_polytechnique.png
     area: Physical Sciences for the Environment
 
 Awards:

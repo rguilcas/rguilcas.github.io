@@ -14,13 +14,13 @@
 /* Header Styles */
 .cv-header {
   margin-bottom: 2rem;
-  border-bottom: 2px solid var(--global-thead-color );
+  border-bottom: 2px solid var(--global-thead-color);
   padding-bottom: 1rem;
 }
 
 .cv-header h1 {
   margin-bottom: 0.5rem;
-  color: var(--global-text-color );
+  color: var(--global-text-color);
 }
 
 .cv-contact-info {
@@ -79,7 +79,40 @@
 /* Item Styles */
 
 .cv-item {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+
+  &.cv-item-with-logo {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+}
+
+.cv-item-logo {
+  flex: 0 0 60px;
+  width: 60px;
+  padding-top: 0.25rem;
+
+  img {
+    width: 60px !important;
+    height: auto;
+    max-height: 50px;
+    object-fit: contain;
+    filter: none;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+  }
+
+  &:hover img {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.cv-item-content {
+  flex: 1;
+  min-width: 0;
+  /* Prevent flex overflow */
 }
 
 .cv-list {
@@ -221,15 +254,15 @@
   .cv-container {
     max-width: 100%;
   }
-  
+
   .cv-header {
     border-bottom-color: var(--global-border-color);
   }
-  
+
   .cv-section h2 {
     border-bottom-color: var(--global-border-color);
   }
-  
+
   .cv-skill-keyword,
   .cv-project-keyword,
   .cv-interest-keyword {

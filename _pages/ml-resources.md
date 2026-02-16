@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: archive
 title: "Machine Learning for Geosciences"
 permalink: /teaching/ml-resources/
 author_profile: true
 header:
   overlay_filter: 0.5
-  overlay_image: /assets/images/featured_machine_learning.png
+  overlay_image: featured_machine_learning.png
 ---
 
 Welcome to the **Machine Learning for Geosciences** resource hub. This page hosts materials and links for deep learning, satellite imagery processing, and climate modeling.

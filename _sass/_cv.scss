@@ -218,3 +218,44 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+.cv-item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  .cv-item-logo {
+    flex: 0 0 60px;
+    padding-top: 0.25rem;
+
+    img {
+      width: 100%;
+      height: auto;
+      max-height: 50px;
+      object-fit: contain;
+      filter: grayscale(1);
+      opacity: 0.8;
+      transition: all 0.3s ease;
+    }
+
+    &:hover img {
+      filter: grayscale(0);
+      opacity: 1;
+    }
+  }
+
+  .cv-item-content {
+    flex: 1;
+  }
+}
+
+/* Specific adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+  .cv-item {
+    gap: 1rem;
+
+    .cv-item-logo {
+      flex: 0 0 45px;
+    }
+  }
+}
