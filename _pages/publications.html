@@ -7,41 +7,41 @@ author_profile: true
 {% include base_path %}
 
 <h2>Submitted</h2>
-<div class="grid__wrapper">
+<div class="list__wrapper">
   {% for post in site.publications reversed %}
   {% if post.category contains 'manuscripts' %}
   {% if post.venue contains '(submitted)' %}
-  {% include archive-single.html type="grid" %}
+  {% include archive-single.html type="list" %}
   {% endif %}
   {% endif %}
   {% endfor %}
 </div>
 
 <h2>Peer-reviewed Journal Articles</h2>
-<div class="grid__wrapper">
+<div class="list__wrapper">
   {% for post in site.publications reversed %}
   {% if post.category contains 'manuscripts' %}
   {% unless post.venue contains '(submitted)' %}
-  {% include archive-single.html type="grid" %}
+  {% include archive-single.html type="list" %}
   {% endunless %}
   {% endif %}
   {% endfor %}
 </div>
 
 <h2>Theses</h2>
-<div class="grid__wrapper">
+<div class="list__wrapper">
   {% for post in site.publications reversed %}
   {% if post.category contains 'thesis' %}
-  {% include archive-single.html type="grid" %}
+  {% include archive-single.html type="list" %}
   {% endif %}
   {% endfor %}
 </div>
 
 <h2>Outreach</h2>
-<div class="grid__wrapper">
+<div class="list__wrapper">
   {% for post in site.publications reversed %}
   {% if post.category contains 'outreach' %}
-  {% include archive-single.html type="grid" %}
+  {% include archive-single.html type="list" %}
   {% endif %}
   {% endfor %}
 </div>

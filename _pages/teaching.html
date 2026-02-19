@@ -12,52 +12,24 @@ I design and teach courses and workshops on programming tools for geoscientists.
 
 <div class="featured-blocks">
     <!-- Scientific Python Block -->
-    <div class="featured-block" onclick="this.classList.toggle('is-expanded')">
+    <a href="{{ site.baseurl }}/teaching/python-resources/" class="featured-block" style="text-decoration: none;">
         <div class="featured-block__image-container">
-            <img src="{{ base_path }}/assets/images/featured_scientific_python.png" alt="Scientific Python"
+            <img src="{{ site.baseurl }}/assets/images/featured_scientific_python.png" alt="Scientific Python"
                 class="featured-block__image">
         </div>
         <div class="featured-block__overlay">
             <h3 class="featured-block__title">Scientific Python<br>for Geosciences</h3>
         </div>
-        <div class="featured-block__links">
-            <div class="featured-block__links-inner">
-                <a href="{{ base_path }}/teaching/python-resources/"
-                    class="featured-block__link featured-block__link--primary"
-                    onclick="event.stopPropagation()">Resources</a>
-                {% for post in site.teaching %}
-                {% if post.group == "python" %}
-                <a href="{{ base_path }}{{ post.url }}" class="featured-block__link"
-                    onclick="event.stopPropagation()">{{
-                    post.title }}</a>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-    </div>
+    </a>
 
     <!-- Machine Learning Block -->
-    <div class="featured-block" onclick="this.classList.toggle('is-expanded')">
+    <a href="{{ site.baseurl }}/teaching/ml-resources/" class="featured-block" style="text-decoration: none;">
         <div class="featured-block__image-container">
-            <img src="{{ base_path }}/assets/images/featured_machine_learning.png" alt="Machine Learning"
+            <img src="{{ site.baseurl }}/assets/images/featured_machine_learning.png" alt="Machine Learning"
                 class="featured-block__image">
         </div>
         <div class="featured-block__overlay">
             <h3 class="featured-block__title">Machine Learning<br>for Geosciences</h3>
         </div>
-        <div class="featured-block__links">
-            <div class="featured-block__links-inner">
-                <a href="{{ base_path }}/teaching/ml-resources/"
-                    class="featured-block__link featured-block__link--primary"
-                    onclick="event.stopPropagation()">Resources</a>
-                {% for post in site.teaching %}
-                {% if post.group == "ml" %}
-                <a href="{{ base_path }}{{ post.url }}" class="featured-block__link"
-                    onclick="event.stopPropagation()">{{
-                    post.title }}</a>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-    </div>
+    </a>
 </div>

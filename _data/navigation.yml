@@ -11,14 +11,21 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Poster Gallery"
-    url: /posters/    
+  - title: "Presentations"
+    url: "#"
+    children:
+      - title: "Talks"
+        url: /talks/
+      - title: "Poster Gallery"
+        url: /posters/
 
   - title: "Teaching"
-    url: /teaching/    
+    url: "#"
+    children:
+      - title: "Python for geosciences"
+        url: /teaching/python-resources/
+      - title: "Machine Learning for geosciences"
+        url: /teaching/ml-resources/
     
 
 
