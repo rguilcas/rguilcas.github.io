@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
@@ -9,19 +9,26 @@ author_profile: true
 <h2>Submitted</h2>
 <div class="list__wrapper">
   {% for post in site.publications reversed %}
-  {% if post.category contains 'manuscripts' %}
-  {% if post.venue contains '(submitted)' %}
+  {% if post.category contains 'manuscripts' and post.venue contains '(submitted)' %}
   {% include archive-single.html type="list" %}
-  {% endif %}
   {% endif %}
   {% endfor %}
 </div>
 
 <h2>Peer-reviewed Journal Articles</h2>
 <div class="list__wrapper">
+  {% assign last_year = "" %}
   {% for post in site.publications reversed %}
   {% if post.category contains 'manuscripts' %}
   {% unless post.venue contains '(submitted)' %}
+  {% assign current_year = post.date | default: "1900-01-01" | date: "%Y" %}
+  {% if last_year != current_year %}
+  <div style="display: flex; align-items: center; margin: 2rem 0 1rem;">
+    <span style="color: #999; font-weight: bold; font-size: 0.85rem; margin-right: 15px;">{{ current_year }}</span>
+    <div style="flex-grow: 1; height: 1px; background-color: var(--global-border-color);"></div>
+  </div>
+  {% endif %}
+  {% assign last_year = current_year %}
   {% include archive-single.html type="list" %}
   {% endunless %}
   {% endif %}

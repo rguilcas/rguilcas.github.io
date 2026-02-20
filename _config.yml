@@ -13,7 +13,7 @@ theme                    : null
 title                    : "Robin Guillaume-Castel"
 title_separator          : "-"
 name                     : &name "Robin Guillaume-Castel"
-description              : &description "My research portfolio and academic publications."
+description              : &description "Robin Guillaume-Castel personal academic website."
 url                      : "https://rguilcas.github.io"
 baseurl                  : ""
 repository               : "rguilcas/rguilcas.github.io"
@@ -37,10 +37,10 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL
-  googlescholar    :  "https://scholar.google.com/citations?user=7jY5BzcAAAAJ&hl=en" # Please update with your correct profile URL
+  googlescholar    :  "https://scholar.google.com/citations?user=7jY5BzcAAAAJ&hl=en" 
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : "https://orcid.org/0000-0003-3615-8195"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL

@@ -2,7 +2,7 @@
 layout: archive
 title: "Scientific Python for Geosciences"
 permalink: /teaching/python-resources/
-author_profile: true
+author_profile: false
 header:
   overlay_filter: 0.5
   overlay_image: featured_scientific_python.png

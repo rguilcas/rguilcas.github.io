@@ -2,7 +2,7 @@
 layout: archive
 title: "Machine Learning for Geosciences"
 permalink: /teaching/ml-resources/
-author_profile: true
+author_profile: false
 header:
   overlay_filter: 0.5
   overlay_image: featured_machine_learning.png

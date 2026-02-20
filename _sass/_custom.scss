@@ -545,7 +545,9 @@
     }
 }
 
-/* Dropdown Navigation */
+/* ==========================================================================
+   DROPDOWN NAVIGATION
+   ========================================================================== */
 .masthead__menu-item {
     position: relative;
 
@@ -554,8 +556,30 @@
             opacity: 1 !important;
             visibility: visible !important;
             transform: translateY(0) !important;
-            /* Simplified transform for Firefox */
         }
+    }
+}
+
+.btn--research {
+    display: inline-block !important;
+    padding: 3px 10px !important;
+    font-size: 0.65rem !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+    color: #fff !important;
+    background-color: var(--global-theme-color) !important;
+    border-radius: 4px !important;
+    text-decoration: none !important;
+    transition: background-color 0.2s ease, transform 0.2s ease !important;
+    margin-right: 5px !important;
+    margin-bottom: 5px !important;
+    cursor: pointer !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+
+    &:hover {
+        background-color: var(--global-hover-color) !important;
+        transform: translateY(-1px) !important;
     }
 }
 
@@ -645,4 +669,20 @@
 .masthead__menu,
 .greedy-nav {
     overflow: visible !important;
+}
+/* ==========================================================================
+   FULL-WIDTH LAYOUT (No Sidebar)
+   ========================================================================== */
+
+#main.no-sidebar {
+    .archive,
+    .page {
+        @include breakpoint($large) {
+            @include span(12 of 12);
+            @include prefix(0);
+            @include suffix(0);
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
 }
