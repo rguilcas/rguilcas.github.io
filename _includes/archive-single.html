@@ -38,8 +38,18 @@
 
       {% if post.collection == 'publications' %}
       {% assign author_parts = post.citation | split: '&quot;' %}
-      {% assign author_list = author_parts[0] | replace_first: "' ", "" | replace_first: "'", "" | strip | replace: ",
-      ", ", " %}
+      {% assign author_list = author_parts[0] | replace_first: "' ", "" | replace_first: "'", "" | strip %}
+      {% if author_list contains ", " %}
+      {% assign author_list = author_list | replace: ", , ", ", " %}
+      {% endif %}
+      {% assign author_list = author_list | replace: "Robin Guillaume-Castel", "<strong
+        style='color: var(--global-theme-color);'>Robin Guillaume-Castel</strong>" %}
+      {% assign author_list_size = author_list | size %}
+      {% assign last_index = author_list_size | minus: 1 %}
+      {% assign last_char = author_list | slice: last_index %}
+      {% if last_char == "," or last_char == "." %}
+      {% assign author_list = author_list | slice: 0, last_index %}
+      {% endif %}
       <p style="font-size: 0.9em; margin-bottom: 5px; color: #555;">{{ author_list }}</p>
       {% endif %}
 
@@ -63,18 +73,7 @@
         {% endif %}
 
         <div style="font-size: 0.9em; margin-top: 10px;">
-          {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-          <a href="{{ post.paperurl }}" class="btn--research">PDF</a> <a href="{{ post.slidesurl }}"
-            class="btn--research">Slides</a> <a href="{{ post.bibtexurl }}" class="btn--research">Bibtex</a>
-          {% elsif post.citation and post.paperurl and post.slidesurl %}
-          <a href="{{ post.paperurl }}" class="btn--research">PDF</a> <a href="{{ post.slidesurl }}"
-            class="btn--research">Slides</a>
-          {% elsif post.citation and post.paperurl and post.bibtexurl %}
-          <a href="{{ post.paperurl }}" class="btn--research">PDF</a> <a href="{{ post.bibtexurl }}"
-            class="btn--research">Bibtex</a>
-          {% elsif post.citation and post.paperurl %}
-          <a href="{{ post.paperurl }}" class="btn--research">PDF</a>
-          {% elsif post.citation and post.slidesurl and post.bibtexurl %}
+          {% if post.citation and post.slidesurl and post.bibtexurl %}
           <a href="{{ post.slidesurl }}" class="btn--research">Slides</a> <a href="{{ post.bibtexurl }}"
             class="btn--research">Bibtex</a>
           {% elsif post.citation and post.slidesurl %}
@@ -83,11 +82,6 @@
           <a href="{{ post.bibtexurl }}" class="btn--research">Bibtex</a>
           {% elsif post.citation %}
           <!-- No links available -->
-          {% elsif post.paperurl and post.bibtexurl %}
-          <a href=" {{ post.paperurl }} " class="btn--research">PDF</a> <a href="{{ post.bibtexurl }}"
-            class="btn--research">Bibtex</a>
-          {% elsif post.paperurl %}
-          <a href=" {{ post.paperurl }} " class="btn--research">PDF</a>
           {% elsif post.slidesurl and post.bibtexurl %}
           <a href="{{ post.slidesurl }}" class="btn--research">Slides</a> <a href="{{ post.bibtexurl }}"
             class="btn--research">Bibtex</a>

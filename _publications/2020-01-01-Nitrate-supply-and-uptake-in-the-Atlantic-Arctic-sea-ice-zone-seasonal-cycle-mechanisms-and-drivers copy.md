@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2020-01-01-Nitrate-supply-and-uptake-in-the-Atlantic-Arctic-sea-ice-zone-seasonal-cycle-mechanisms-and-drivers
 date: 2020-01-01
 venue: 'Philosophical Transactions of the Royal Society A'
+paperurl: '/files/publications/rsta.2019.0361.pdf'
 citation: ' Sian Henley,  Marie Porter,  Laura Hobbs,  Judith Braun,  Robin Guillaume-Castel,  Emily Venables,  Estelle Dumont,  Finlo Cottier, &quot;Nitrate supply and uptake in the Atlantic Arctic sea ice zone: seasonal cycle, mechanisms and drivers.&quot; Philosophical Transactions of the Royal Society A, 2020.'
 ---
 ### Abstract

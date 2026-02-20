@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2025-01-01-ENSO-diversity-explains-interannual-variability-of-the-pattern-effect
 date: 2025-01-01
 venue: 'Geophysical Research Letters'
+paperurl: '/files/publications/Geophysical Research Letters - 2025 - Guillaume‐Castel - ENSO Diversity Explains Interannual Variability of the Pattern-1.pdf'
 citation: ' Robin Guillaume-Castel,  Paulo Ceppi,  Joshua Dorrington,  Benoit Meyssignac, &quot;ENSO diversity explains interannual variability of the pattern effect.&quot; Geophysical Research Letters, 2025.'
 ---
 The spatial pattern of sea surface temperature (SST) affects the global radiative budget through

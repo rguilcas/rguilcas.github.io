@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2021-01-01-Quantifying-upwelling-in-tropical-shallow-waters-A-novel-method-using-a-temperature-stratification-index
 date: 2021-01-01
 venue: 'Limnology and Oceanography: Methods'
+paperurl: '/files/publications/rsta.2019.0361.pdf'
 citation: ' Robin Guillaume-Castel,  Gareth Williams,  Justin Rogers,  Jamison Gove,  JA Mattias Green, &quot;Quantifying upwelling in tropical shallow waters: A novel method using a temperature stratification index.&quot; Limnology and Oceanography: Methods, 2021.'
 ---
 ### Abstract

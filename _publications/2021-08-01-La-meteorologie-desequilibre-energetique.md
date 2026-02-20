@@ -5,6 +5,7 @@ category: outreach
 permalink: /publication/2021-08-01-La-meteorologie-desequilibre-energetique
 date: 2021-08-01
 venue: 'La Météorologie'
+paperurl: '/files/publications/meteo_2023_122_23-2.pdf'
 citation: 'Benoît Meyssignac, Jonathan Chenal, Robin Guillaume-Castel, Alejandro Blazquez, Sébastien Fourest, &quot;Mesurer le déséquilibre énergétique de la planète pour évaluer la sensibilité du climat aux émissions de gaz à effet de serre; La Météorologie, 2021.'
 ---
 

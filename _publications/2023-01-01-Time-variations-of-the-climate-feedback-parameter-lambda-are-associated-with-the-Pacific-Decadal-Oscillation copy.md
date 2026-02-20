@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2023-01-01-Time-variations-of-the-climate-feedback-parameter-lambda-are-associated-with-the-Pacific-Decadal-Oscillation
 date: 2023-01-01
 venue: 'Communications Earth &amp; Environment'
+paperurl: '/files/publications/sciadv.add5032.pdf'
 citation: ' Benoit Meyssignac,  Jonathan Chenal,  Norman Loeb,  Robin Guillaume-Castel,  Aurélien Ribes, &quot;Time-variations of the climate feedback parameter λ are associated with the Pacific Decadal Oscillation.&quot; Communications Earth &amp;amp; Environment, 2023.'
 ---
 

@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2025-01-01-Climate-change-impacts-to-upwelling-and-shallow-reef-nutrient-sources-across-an-oceanic-archipelago
 date: 2025-01-01
 venue: 'Limnology and Oceanography'
+paperurl: '/files/publications/Limnology Oceanography - 2025 - Spring - Climate change impacts to upwelling and shallow reef nutrient sources across an.pdf'
 citation: ' Danielle Spring,  Michael Fox,  JA Mattias Green,  Robin Guillaume-Castel,  Zoe Jacobs,  Ronan Roche,  John Turner,  Gareth Williams, &quot;Climate change impacts to upwelling and shallow reef nutrient sources across an oceanic archipelago.&quot; Limnology and Oceanography, 2025.'
 ---
 Upwelling delivers key nutritional and energetic subsidies to coral reef communities that affect the growth,

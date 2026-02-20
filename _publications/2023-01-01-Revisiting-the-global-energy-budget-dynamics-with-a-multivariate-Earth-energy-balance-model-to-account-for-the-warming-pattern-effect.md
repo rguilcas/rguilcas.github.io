@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2023-01-01-Revisiting-the-global-energy-budget-dynamics-with-a-multivariate-Earth-energy-balance-model-to-account-for-the-warming-pattern-effect
 date: 2023-01-01
 venue: 'Journal of Climate'
+paperurl: '/files/publications/clim-JCLI-D-22-0765.1.pdf'
 citation: ' Benoit Meyssignac,  Robin Guillaume-Castel,  Rémy Roca, &quot;Revisiting the global energy budget dynamics with a multivariate Earth energy balance model to account for the warming pattern effect.&quot; Journal of Climate, 2023.'
 ---
 ### Abstract

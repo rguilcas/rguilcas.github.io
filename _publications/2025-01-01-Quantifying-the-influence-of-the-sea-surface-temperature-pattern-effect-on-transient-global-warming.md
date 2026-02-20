@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2025-01-01-Quantifying-the-influence-of-the-sea-surface-temperature-pattern-effect-on-transient-global-warming
 date: 2025-01-01
 venue: 'Journal of Climate'
+paperurl: '/files/publications/clim-JCLI-D-24-0229.1-1.pdf'
 citation: ' Robin Guillaume-Castel,  Benoit Meyssignac, &quot;Quantifying the influence of the sea surface temperature pattern effect on transient global warming.&quot; Journal of Climate, 2025.'
 ---
 he pattern of surface warming plays a significant role in Earth’s response to radiative forcing as it influen-

@@ -3,8 +3,9 @@ title: "Understanding biases and changes in European heavy precipitation using d
 collection: publications
 category: manuscripts
 permalink: /publication/2025-01-01-Understanding-biases-and-changes-in-European-heavy
-date: 2025-01-01
+date: 2026-01-01
 venue: '(submitted)'
+paperurl: '/files/publications/Oldham-Dorrington et al. - 2025 - Understanding biases and changes in European heavy precipitation using dynamical flow precursors.pdf'
 citation: 'Joshua Oldham-Dorrington, Camille Li, Stefan P. Sobolowski and Robin Guillaume-Castel . &quot;Understanding biases and changes in European heavy precipitation using dynamical flow precursors.&quot; (submitted).'
 ---
 Check out an interactive plot for the results of this paper:
