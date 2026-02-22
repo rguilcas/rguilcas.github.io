@@ -26,9 +26,9 @@ author:
   # Biographic information
   avatar           : "picture_profile.jpg"
   name             : "Robin Guillaume-Castel"
-  pronouns         : "he/him" # Inferred or leave blank? Leaving blank to be safe or just omit.
+  pronouns         : # "he/him" 
   fellowship       : "MSCA LEAD-AI<br>Postdoctoral Fellow"
-  bio              : "University of Bergen"
+  bio              : # "University of Bergen"
   location         : "Bergen, Norway"
   employer         : "University of Bergen"
   uri              : # URL

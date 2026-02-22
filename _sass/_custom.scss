@@ -109,7 +109,7 @@
    ========================================================================== */
 
 .sidebar {
-    margin-top: 1em;
+    margin-top: 0;
 
 
 
@@ -670,11 +670,13 @@
 .greedy-nav {
     overflow: visible !important;
 }
+
 /* ==========================================================================
    FULL-WIDTH LAYOUT (No Sidebar)
    ========================================================================== */
 
 #main.no-sidebar {
+
     .archive,
     .page {
         @include breakpoint($large) {

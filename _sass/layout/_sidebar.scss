@@ -18,10 +18,10 @@
   }
 
   @media screen and (min-width: $sidebar-screen-min-width) {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding-top: $masthead-height;
+    position: fixed !important;
+    top: calc(6.6rem - 20px) !important;
+    width: 250px; // Match max-width
+    padding-top: 0 !important;
   }
 
   @include breakpoint($large) {
