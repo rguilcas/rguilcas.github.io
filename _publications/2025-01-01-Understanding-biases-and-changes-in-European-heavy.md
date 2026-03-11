@@ -11,10 +11,10 @@ citation: 'Joshua Oldham-Dorrington, Camille Li, Stefan P. Sobolowski and Robin 
 Check out an interactive plot for the results of this paper:
 
 
-[![App](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://rguilcas-cmip-interactive.hf.space/app)
+[![App](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://uib-precursors-cmip6-interactive.hf.space/app)
 
 <iframe
-	src="https://rguilcas-cmip-interactive.hf.space/app"
+	src="https://uib-precursors-cmip6-interactive.hf.space/app"
 	frameborder="0"
 	width="100%"
 	height="800px"

@@ -1,0 +1,13 @@
+---
+title: "Nitrate supply and uptake in the Atlantic Arctic sea ice zone: seasonal cycle, mechanisms and drivers"
+collection: publications
+category: manuscripts
+permalink: /publication/2020-01-01-Nitrate-supply-and-uptake-in-the-Atlantic-Arctic-sea-ice-zone-seasonal-cycle-mechanisms-and-drivers
+date: 2020-01-01
+venue: 'Philosophical Transactions of the Royal Society A'
+citation: ' Sian Henley,  Marie Porter,  Laura Hobbs,  Judith Braun,  Robin Guillaume-Castel,  Emily Venables,  Estelle Dumont,  Finlo Cottier, &quot;Nitrate supply and uptake in the Atlantic Arctic sea ice zone: seasonal cycle, mechanisms and drivers.&quot; Philosophical Transactions of the Royal Society A, 2020.'
+---
+### Abstract
+Nutrient supply to the surface ocean is a key factor regulating primary production in the Arctic Ocean under current conditions and with ongoing warming and sea ice losses. Here we present seasonal nitrate concentration and hydrographic data from two oceanographic moorings on the northern Barents shelf between autumn 2017 and summer 2018. The eastern mooring was sea ice-covered to varying degrees during autumn, winter and spring, and was characterized by more Arctic-like oceanographic conditions, while the western mooring was ice-free year-round and showed a greater influence of Atlantic water masses. The seasonal cycle in nitrate dynamics was similar under ice-influenced and ice-free conditions, with biological nitrate uptake beginning near-synchronously in early May, but important differences between the moorings were observed. Nitrate supply to the surface ocean preceding and during the period of rapid drawdown was greater at the ice-free more Atlantic-like western mooring, and nitrate drawdown occurred more slowly over a longer period of time. This suggests that with ongoing sea ice losses and Atlantification, the expected shift from more Arctic-like ice-influenced conditions to more Atlantic-like ice-free conditions is likely to increase nutrient availability and the duration of seasonal drawdown in this Arctic shelf region. The extent to which this increased nutrient availability and longer drawdown periods will lead to increases in total nitrate uptake, and support the projected increases in primary production, will depend on changes in upper ocean stratification and their effect on light availability to phytoplankton as changes in climate and the physical environment proceed.
+
+Use [Google Scholar](https://scholar.google.com/scholar?q=Nitrate+supply+and+uptake+in+the+Atlantic+Arctic+sea+ice+zone:+seasonal+cycle,+mechanisms+and+drivers){:target="_blank"} for full citation
