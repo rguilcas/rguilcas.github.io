@@ -63,6 +63,8 @@ News
 ======
 
 
+* March 2026 - I was [interviewed](https://www.uib.no/en/ai/181814/can-ai-models-be-trusted-predict-heavy-rainfall) about my project for UiB-AI.
+
 * January 2026 - Our proposal for the BCCR training programme in ML got funded! More to come later.
 
 * January 2025 - [Interview at the Bjerknes Centre for Climate Research](https://bjerknes.uib.no/en/news/vi-ma-forsta-den-svarte-ki-boksen) 
