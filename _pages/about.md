@@ -62,6 +62,9 @@ Tropical Coral Reefs  Large-Scale Data Analysis  Data Visualization
 News
 ======
 
+* May 2026 - I presented my work on trying to assess the physical realism of neural networks at the European Geophysical Union General Assembly 2026 in Vienna [Link to abstract heye](https://meetingorganizer.copernicus.org/EGU26/EGU26-4957.html).
+
+* April 2026 - We kicked off the BCCR Training Programme for Machine Learning, teaching around 30 local researchers about machine learning, neural networks and how to use these into thei research [LinkedIn post here](https://www.linkedin.com/posts/bjerknes-centre-for-climate-research_sigrid-passano-hellan-and-robin-guillaume-castel-activity-7453020406078275584-VdHT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB90xlUBiW4NASjZTWRYSF1v69ZDbHOJ8M0).
 
 * March 2026 - I was [interviewed](https://www.uib.no/en/ai/181814/can-ai-models-be-trusted-predict-heavy-rainfall) about my project for UiB-AI.
 
