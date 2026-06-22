@@ -61,6 +61,7 @@ Tropical Coral Reefs  Large-Scale Data Analysis  Data Visualization
 
 News
 ======
+* June 2026 - I submitted my first postdoc paper on assessing neural networks physical realism with explainable AI.
 
 * May 2026 - I presented my work on trying to assess the physical realism of neural networks at the European Geophysical Union General Assembly 2026 in Vienna [Link to abstract heye](https://meetingorganizer.copernicus.org/EGU26/EGU26-4957.html).
 
