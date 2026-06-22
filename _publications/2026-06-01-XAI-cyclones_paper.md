@@ -1,0 +1,12 @@
+---
+title: "Explainable AI shows that a neural network learns extratropical cyclones as predictors of heavy precipitation."
+collection: publications
+category: manuscripts
+permalink: /publication/2026-06-01-XAI-cyclones_paper
+date: 2026-06-01
+venue: '(submitted)'
+# paperurl: '/files/publications/clim-JCLI-D-24-0229.1-1.pdf'
+citation: 'Robin Guillaume-Castel, Camille Li and Stefan Sobolowski  &quot;Explainable AI shows that a neural network learns extratropical cyclones as predictors of heavy precipitation.&quot; (submitted)'
+---
+Neural networks are increasingly used in weather and climate science, not only for prediction tasks but also for
+process understanding and scientific discovery, where model outputs must be linked to physically meaningful processes. Explainable artificial intelligence (XAI) helps establish this link by providing tools to interpret the information a neural network uses to make its predictions. However, most approaches rely on spatially aggregated or composite analyses that do not reveal the physical basis of individual predictions. Here, we present an object-oriented XAI framework that enables such prediction-level evaluation. We use this framework to analyse a simplified prediction task in which a neural network is trained to predict the occurrence of daily heavy precipitation in Western Norway across multiple prediction lead-times, several days in advance. In this study area, heavy precipitation is mainly associated with mid-latitude cyclones, providing a clear criterion: regions of high relevance identified by XAI should correspond to detected cyclones in the input fields. We find that most predictions are indeed associated with cyclones and that relevance patterns match key physical features such as the low-pressure centre and the zone of maximum winds. Furthermore, we show that predictions are based primarily on strong cyclones that travel along the North Atlantic storm track. This study provides a controlled benchmark that demonstrates that neural network predictions of heavy rainfall can align with established physical understanding. More generally, it illustrates how an object-oriented XAI framework can be used to assess physical realism at the level of individual predictions, representing an important step toward building the trust necessary to use these models for research and decision-making applications in weather and climate.
